@@ -51,17 +51,17 @@ int main(int argc, char *argv[]) {
 // }
 
 // programmation dynamique
-
-{
-  TopChrono(1); // départ du chrono 1
-  printf("value: %g\n", tsp_prog_dyn(V, n, P));
-  printf("running time: %s\n", TopChrono(1)); // durée
-  update = true; // force l'affichage
-  while (running) { // affiche le résultat et attend (q pour sortir)
-    drawTour(V, n, P);  // dessine la tournée
-    handleEvent(update); // attend un évènement ou pas
-  }
-}
+//
+// {
+//   TopChrono(1); // départ du chrono 1
+//   printf("value: %g\n", tsp_prog_dyn(V, n, P));
+//   printf("running time: %s\n", TopChrono(1)); // durée
+//   update = true; // force l'affichage
+//   while (running) { // affiche le résultat et attend (q pour sortir)
+//     drawTour(V, n, P);  // dessine la tournée
+//     handleEvent(update); // attend un évènement ou pas
+//   }
+// }
 
 // flip
 

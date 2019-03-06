@@ -1261,4 +1261,3 @@ bool handleEvent(bool wait_event) {
 
   return vertices_have_changed;
 }
-
